@@ -35,4 +35,6 @@ module.exports = Object.freeze({
   TYPE_SUDOKU : 's',
   strings : STRINGS,
   STATUS_KEY: 'status',
+  // access_control_domain: 'leikam.com',
+  access_control_domain: '*',
 });

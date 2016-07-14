@@ -55,6 +55,8 @@ exports.renderPuzzle = function(err,data){
 	data['answers'] = parseAnswers(data['answers']);
 	data['shapes'] = S;
 	data['config'] = D;
+
+	myRes.setHeader('Access-Control-Allow-Origin', cfg.access_control_domain);
 	myRes.json(data);
 }
 
