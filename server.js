@@ -3,8 +3,8 @@ require('dotenv').config();
 
 const express = require("express");
 const app = express();
-const logger = require('./logger')
-const sudoku = require('./sudoku');
+const logger = require('./middleware/logger')
+const sudoku = require('./middleware/sudoku');
 const cors = require('cors')
 
 const port = process.env.PORT;

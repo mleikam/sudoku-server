@@ -1,3 +1,4 @@
 node_modules
 puzzle
 sugen/sugen
+.env.local
